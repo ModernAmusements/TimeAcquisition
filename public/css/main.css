@@ -1,0 +1,342 @@
+* {
+    margin: 0;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    background-color: white;
+    height: 100%;
+    margin: 0 0 100px;
+    
+}
+
+.navbar-light .navbar-brand{
+    color: black;
+}
+
+.navbar-light .navbar-brand:hover{
+    color: black;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: black; 
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color: black;  
+}
+
+
+#reportCreate {
+    border-color: 990033; 
+    color: black; 
+}
+
+#timeCreate {
+    color: black; 
+}
+
+.tableCols {
+    color: black; 
+}
+
+.flatpickr-calendar.inline { /*  Temporary css. Fix positioning later */
+    display: block;
+    position: absolute !important;
+    left: 600px !important;
+    top: 100px !important;
+}
+
+.table {
+    text-align:center;
+    border-style: solid;
+    border-color: rgb(230,230,230);
+
+}
+
+.cols {
+    color: #7D0028;
+}
+
+.enterWorkHours {
+    display: flex;
+    justify-content: center;
+}
+
+.editWorkHours {
+        display: flex;
+        justify-content: center;
+}
+
+.row {
+    justify-content: center;
+}
+
+.startTime div {
+    width: 85%
+}
+
+.finishTime div {
+    width: 85%
+}
+
+.editStaffHours {
+    display: flex;
+    justify-content: center;
+}
+
+.reportHeader {
+    display: flex;
+    justify-content: center;
+}
+
+.siteFooter {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+}
+
+.macLogoIndex {
+    height: auto;
+    width: 300px;
+    margin-right: 20px;
+}
+
+.macLogoNav {
+    height: auto;
+    width: 30px;
+}
+.index .card {
+    font-size: 1.6em;
+    margin-top: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#startButton {
+    border-color: black;
+    color: black;
+}
+
+#startButton:hover{
+    background-color: black;
+    color: white;
+}
+
+#finishButton {
+    border-color: black;
+    color: black;
+}
+
+#finishButton:hover {
+    background-color: black;
+    color: white;
+}
+
+#submitButton {
+    background-color: black;
+    border-color: black;
+    color: white;
+}
+
+#submitButton:hover {
+    background-color:black;
+    border-color: black;
+    color: white;
+}
+
+#reportButton {
+    background-color: black;
+    border-color: black;
+    color: white;
+}
+
+#reportButton:hover {
+    background-color:black;
+    border-color: black;
+    color: white;
+}
+
+
+#editHoursButton{
+    background-color:black; 
+    border-color: black;
+    color: white;
+}
+
+#editHoursButton:hover{
+    background-color:black;
+    border-color: black;
+    color: white;
+}
+
+#pdfButton{
+    background-color:black;
+    border-color: black;
+    color: white;
+}
+
+#pdfButton:hover{
+    background-color:black;
+    border-color: black;
+    color: white
+}
+
+.editStaffCard {
+    color: black;
+    font-weight: bold;
+}
+
+#editStaffButton {
+    background-color:black;
+    border-color: black;
+    color: white;
+}
+
+#editStaffButton:hover{
+    background-color:black;
+    border-color: black;
+}
+
+.login {
+    color: black;
+}
+
+#loginButton {
+    background-color:black;
+    border-color: black;
+}
+
+#loginButton:hover{
+    background-color:black;
+    border-color: black;
+}
+
+.passwordReset {
+    color: black;
+}
+
+#passwordResetButton {
+    background-color:black;
+    border-color: black;
+}
+
+#passwordResetButton:hover {
+    background-color:black;
+    border-color: black;
+}
+
+.register {
+    color: black; 
+}
+
+#registerButton {
+    background-color:black;
+    border-color: black;
+}
+
+#registerButton:hover {
+    background-color:black;
+    border-color: black;
+}
+
+.viewReports {
+    display: flex;
+    justify-content: center;
+}
+
+.downloadReport {
+    display: flex;
+    justify-content: center;
+}
+
+#enterHours {
+    background-color:black;
+    border-color: black;
+}
+
+#enterHours:hover {
+    background-color:black;
+    border-color: black;
+}
+
+#editCurrentYearButton{
+    background-color:black;
+    border-color: black;
+    margin-left: 2.5px;
+}
+
+#editCurrentYearButton:hover {
+    background-color:black;
+    border-color: black;
+}
+
+#createNewYearButton {
+    margin-right: 2.5px
+}
+
+.returnBack {
+    margin-top:5px;
+    display:flex;
+    justify-content: center;
+}
+.flatpickr-day.selected{
+    border-color: black;
+    background-color: black;
+}
+
+.crudStaffButtons {
+    display:flex;
+    justify-content: center;
+}
+
+.alert {
+    width:80%
+}
+
+.carryOverForm {
+    display: flex;
+}
+
+.last_updated {
+    color: black;
+    font-style: italic;
+    font-weight: normal;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+.updateCarry {
+    display: flex;
+}
+
+
+/* .index .container {
+
+} */
+/* Media Queries */
+  @media (min-width: 760px) and (max-width: 992px) {
+
+.startTime div{
+    width: 75%;
+}
+
+.finishTime div{
+    width: 75%;
+}
+
+.flatpickr-calendar {
+    padding-right: 100px;
+}
+
+
+}
